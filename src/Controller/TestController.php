@@ -2,11 +2,11 @@
 
 namespace App\Controller;
 
-use App\Entity\TestEntity;
 use App\Entity\MappedEntity;
+use App\Entity\TestEntity;
 use Nelmio\ApiDocBundle\Attribute\Model;
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use OpenApi\Attributes as OA;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 

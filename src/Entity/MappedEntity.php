@@ -2,14 +2,13 @@
 
 namespace App\Entity;
 
-use DateTime;
 use Doctrine\ORM\Mapping\Column;
 use Doctrine\ORM\Mapping\Entity;
 
 /**
- * Demo showing how mapping doctrine mapping metadata affects open api output.
+ * Demo showing how doctrine mapping metadata affects open api output.
  * Issues are:
- * - id is falsely types as integer but is not nullable
+ * - id is falsely typed as integer but not nullable
  * - dateCreated is documented as nullable
  * - scope is documented as nullable
  * - not all properties are required by default but none is ignored

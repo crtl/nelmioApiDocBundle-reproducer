@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Entity;
-use OpenApi\Attributes as OA;
 
 /**
  * Basic entity without mapping to show how constructor defaults seem to affect OA output for properties
